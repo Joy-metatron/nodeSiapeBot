@@ -13,5 +13,16 @@ Automação para buscar dados na api da Promosys(atualmentre) e atualizar dados 
 
 
 ### Documentação
-Para melhor entender e modificar este bot, achamos conveniente descrever cada arquivo e sua função de ntra da estrutura do bot.
-##### 
+Para melhor entender e modificar este bot, achamos conveniente descrever cada arquivo e sua função dentro da estrutura do bot.
+
+###### loadenv.js
+Arquivo resposnsável por realizar a leitura das variavéis de ambiente. Você pode definir diferentes ambientes de execução como development e production e definir quais variavveis carregar atraves de arquivos __.env.NOME_DO_AMBIENTE__.
+    
+~~~ javascript
+const env = require('dotenv').config({path: '.env.development'});
+~~~~
+
+
+
+ 
+ 
