@@ -19,7 +19,6 @@ const argv = yargs(hideBin(process.argv))
     type: 'number',
     demandOption: true // torna a opção obrigatória
   })
-  .help() // adiciona a opção de ajuda (-h, --help)
   .argv;
 
 if (!argv.bot || !argv.limit) {

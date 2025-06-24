@@ -1,9 +1,0 @@
-# Node Siape Bot
-Automação para buscar dados na api da Promosys(atualmentre) e atualizar dados do Siape.
-### Caracteristicas: 
-Desenvolvemos um estrutura modular que apesar de estar focada em uma API específica, pode ser facilmente alterada para outras API´s.
-### Dependências
-* mysql2 (_acesso a banco de dados_)
-* axios (_requisições online_)
-* yargs (_tratamento de argumentos externos_)
-
